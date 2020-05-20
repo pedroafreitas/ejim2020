@@ -188,6 +188,7 @@ h6 {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  background: white;
 }
 
 /*--------------------------------------------------------------
@@ -266,7 +267,7 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -478,7 +479,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.4);
+  background: rgba(19, 17, 13, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -530,7 +531,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#E9B44C 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#51A2A6 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
