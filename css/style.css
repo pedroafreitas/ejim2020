@@ -17,14 +17,14 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: #51A2A6;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #f8234a;
+  color: #51A2A6;
   outline: none;
   text-decoration: none;
 }
@@ -73,7 +73,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: #51A2A6;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -90,13 +90,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #e0072f;
+  background: #51A2A6;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #e0072f;
+  background: #51A2A6;
   color: #fff;
 }
 
@@ -115,7 +115,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: #51A2A6;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -176,7 +176,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #f82249;
+  color: #51A2A6;
 }
 
 #header #logo h1 a,
@@ -289,7 +289,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f82249;
+  background-color: #51A2A6;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -303,10 +303,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #f82249;
+  background: #51A2A6;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid #51A2A6;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -347,7 +347,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #f82249;
+  background: #51A2A6;
   color: #fff;
 }
 
