@@ -9,6 +9,7 @@
 # General
 --------------------------------------------------------------*/
 
+
 body {
   background: #fff;
   color: #2f3138;
@@ -103,7 +104,7 @@ h6 {
 --------------------------------*/
 
 .section-header {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   position: relative;
   padding-bottom: 20px;
 }
@@ -1212,7 +1213,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #buy-tickets {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 #buy-tickets .card {
@@ -1238,7 +1239,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #buy-tickets .card .card-price {
-  font-size: 48px;
+  font-size: 28px;
+  font-weight: bold;
   margin: 0;
 }
 
