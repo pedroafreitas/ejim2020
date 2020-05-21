@@ -158,10 +158,11 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
+  background: white;
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);/*sombra do menu de navegação*/
 }
 
 #header #logo h1 {
@@ -267,7 +268,7 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(255, 255, 255, 0.8);
+  color: #51A2A6; /*muda a cor da fonte no menu de navegação*/
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -276,7 +277,7 @@ h6 {
 
 .nav-menu .menu-active a,
 .nav-menu a:hover {
-  color: #fff;
+  color: #51A2A6;
 }
 
 .nav-menu > li {
