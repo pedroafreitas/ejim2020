@@ -1397,7 +1397,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer {
   background: #101522;
-  padding: 0 0 15px 0;
+  padding: 0 0 20px 0;
   color: #eee;
   font-size: 14px;
 }
@@ -1426,12 +1426,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   
 }
 
-#logofacebook{
-  border-radius: 30%;
-}
-
-#logotwitter{
-  height: 35px!important;
+#contatos{
+  width: 120px;
 }
 
 #footer .footer-top .footer-info p {
