@@ -1427,7 +1427,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contatos{
-  width: 120px;
+  width: 90px;
+}
+
+#email{
+  margin-bottom: 15px;
 }
 
 #footer .footer-top .footer-info p {
