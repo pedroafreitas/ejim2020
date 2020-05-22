@@ -8,6 +8,10 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
+  <!-- VENOBOX -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.6.0/venobox.min.css" type="text/css" media="screen" />
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.6.0/venobox.min.js"></script>  
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -133,8 +137,13 @@
                   <li><span class="fa-li"><i class="fa fa-check"></i></span>Cursos Abertos ao Público</li>
                 </ul>
                 <hr>
+                <!-- venobox
+                <a class="venobox" data-vbtype="iframe" href="programacao.html">
+                  <h1>programacao copleta</h1>
+                    </a>
+                  -->
                 <div class="text-center">
-                  <a href="programacao.html">
+                  <a class = "venobox" data-vbtype="iframe" href="programacao.html">
                   <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access">Programação Completa</button>
                   </a>
                 </div>
@@ -163,8 +172,8 @@
 
     <!--==========================
       Speakers Section
-    ============================-->
-    <!-- <section id="speakers" class="wow fadeInUp">
+    ============================
+     <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>Palestrantes</h2>
@@ -263,8 +272,8 @@
           </div>
         </div>
       </div>
-
-    </section> -->
+-->
+    </section> 
 
     <!--==========================
       Gallery Section
@@ -457,6 +466,7 @@
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
   <!-- JavaScript Libraries -->
+  <script src="venobox.js"></script>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
