@@ -160,10 +160,11 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
+  background: white;
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);/*sombra do menu de navegação*/
 }
 
 #header #logo h1 {
@@ -190,6 +191,7 @@ h6 {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  background: white;
 }
 
 /*--------------------------------------------------------------
@@ -268,7 +270,7 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
+  color: #51A2A6; /*muda a cor da fonte no menu de navegação*/
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -277,7 +279,7 @@ h6 {
 
 .nav-menu .menu-active a,
 .nav-menu a:hover {
-  color: #fff;
+  color: #51A2A6;
 }
 
 .nav-menu > li {
@@ -480,7 +482,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(19, 17, 13, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1397,23 +1399,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer {
   background: #101522;
-  padding: 0 0 25px 0;
+  padding: 0 0 20px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
   background: #040919;
-  padding: 60px 0 30px 0;
+  padding: 30px 15px 30px 15px;
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 26px;
-  margin: 0 0 20px 0;
+  font-size: 17px;
+  margin: 0 0 10px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Raleway", sans-serif;
@@ -1423,7 +1425,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-info img {
   height: 40px;
-  margin-bottom: 10px;
+  
+}
+
+#contatos{
+  width: 90px;
+}
+
+#email{
+  margin-bottom: 15px;
 }
 
 #footer .footer-top .footer-info p {
