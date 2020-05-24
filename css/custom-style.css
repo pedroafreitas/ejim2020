@@ -9,15 +9,8 @@
 
 /* pag competições */
 
-#competicao-app-item{
-    padding-top: 10px;
-}
-#tittle-competicoes{
-    padding-top: 10px;
-}
-
-.container{
-    padding:10px;
+.container-fluid{
+    padding-top: 100px;
 }
 
 /*-----------------*/
