@@ -1612,10 +1612,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991px) {
   #header {
-    background: rgba(6, 12, 34, 0.98);
+
+    background: white;
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   }
 
   #nav-menu-container {
