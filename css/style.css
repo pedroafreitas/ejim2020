@@ -1645,6 +1645,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+.schedule-day-title{
+  padding-top: 15px;
+  font-family: "Raleway", sans-serif;
+  color: #1B100A;
+  font-weight: 600;
+}
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
