@@ -46,7 +46,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="index.html">Início</a></li>
           <li><a href="submissao_trab.html">Submissão de Trabalhos</a></li>
-          <li><a href="webinars.html">Oficinas/Webinars</a></li>
+          <li><a href="webinars.html">Tutoriais e Webinars</a></li>
           <li><a href="competicoes.html">Competições</a></li>
           <li class="buy-tickets"><a href="soon.html">Inscreva-se</a></li>
         </ul>
@@ -97,80 +97,352 @@
     <!--==========================
       Programação Geral
     ============================-->
-    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
-      <div class="container">
-
+    <!--==========================
+      Schedule Section
+    ============================-->
+    <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
         <div class="section-header">
-          <h2>Programação</h2>
-          <p>Veja um pouco do que vai acontecer durante o evento.</p>
+          <h2>PROGRAMAÇÃO DO EVENTO</h2>
+            <p>Oficinas e Webinars que serão ministrados durante o evento.</p>
         </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h6 class="card-price text-center">Palestras</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Palestras para a Industria</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Apresentação Oral de Trabalhos</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Palestras de Caráter Técnico</li> 
-                </ul>
-                <hr>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h6 class="card-price text-center">Minicursos</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Desenvolvimento de Software</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Ferramentas para produção científica</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Cursos Abertos ao Público</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <a class = "venobox" data-vbtype="iframe" href="programacao.html">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access">Programação Completa</button>
-                  </a>
+  
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Semana 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Semana 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Semana 3</a>
+          </li>
+        </ul>
+  
+      <!--  <h3 class="sub-heading">Organização - PETComp</h3>
+      -->
+        <div class="tab-content row justify-content-center">
+  
+          <!-- Schdule Day 1 -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+            
+            <h2 class = "schedule-day-title">Dia 1 - 20/07/2020</h2>
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:00-11:00
+                  <br>
+                  29/06
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/speaker1.png" alt="Brenden Legros">
                 </div>
-
-                <!-- venobox
-                <a class="venobox" data-vbtype="iframe" href="programacao.html">
-                  <h1>programacao copleta</h1>
-                    </a>
-                  -->
-                
+                <h4>Webinário 1 <span>Professor 1</span></h4>
+                <p>sobre webinário</p>
               </div>
             </div>
-          </div>
-          <!-- Pro Tier -->
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="card-body">
-                <h6 class="card-price text-center">Competições</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Game Jam</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Desenvolvimento de Aplicativos</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Maratona de Programação</li>
-                </ul>
-                <hr>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>14:00-16:00 
+                  <br>
+                  29/06
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/pet.jpg" alt="Hubert Hirthe">
+                </div>
+                <h4>Minicurso<span>Arthur Passos e Daniel Pinto</span></h4>
+                <p>Pensamento Computacional</p>
               </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>16:00-17:00
+                  <br>
+                  29/06
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/pet.jpg" alt="Cole Emmerich">
+                </div>
+                <h4>Minicurso <span>Eduarda Chagas e Nathasha Araujo</span></h4>
+                <p>Git terminal e GitHub</p>
+              </div>
+            </div>
+            <h2 class = "schedule-day-title">Dia 2 - 20/07/2020</h2>
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:00-11:00
+                  <br>
+                  01/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/speaker2.jpg" alt="Jack Christiansen">
+                </div>
+                <h4>Webináro <span>Professor(a)</span></h4>
+                <p>sobre webinário</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>14:00-16:00
+                  <br>
+                  01/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/pet.jpg" alt="Alejandrin Littel">
+                </div>
+                <h4>Minicurso React JS<span>Gabriel Sousa</span></h4>
+                <p>Framework para desenvolvimento de sites em JavaScript</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>16:00-17:00
+                  <br>
+                  01/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/pet.jpg" alt="Willow Trantow">
+                </div>
+                <h4>Minicurso <span>Pedro Arthur e Jadiel Júnior</span></h4>
+                <p>Privacidade na Web</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:00-10:00
+                  <br>
+                  03/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/pet.jpg" alt="Willow Trantow">
+                </div>
+                <h4>Game Jam <span>Petianos</span></h4>
+                <p>Apresentação do tema.</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00-12:00
+                  <br>
+                  03/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/speaker3.jpg" alt="Jack Christiansen">
+                </div>
+                <h4>Webináro <span>Professor(a)</span></h4>
+                <p>sobre webinário</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>14:00-17:00
+                  <br>
+                  03/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/pet.jpg" alt="Jack Christiansen">
+                </div>
+                <h4>Minicurso <span>Pedro Arthur</span></h4>
+                <p>sobre ChatBot</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>17:00-18:00
+                <br>
+                <date>03/07</date>
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/speaker4.jpg" alt="Brenden Legros">
+                </div>
+                <h4>Webinário 4 <span>Professor(a) 4</span></h4>
+                <p>Sobre Webinário 4</p>
+              </div>
+            </div>
+  
+          </div>
+          <!-- End Schdule Day 1 -->
+  
+          <!-- Schdule Day 2 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:00-11:00
+                <br> 
+                06/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/pet.jpg" alt="Brenden Legros">
+                </div>
+                <h4>Minicurso Redes <span>Daniel Pinto</span></h4>
+                <p>Sobre Minicurso</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>14:00-18:00
+                <br>
+                06/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/speaker5.jpg" alt="Hubert Hirthe">
+                </div>
+                <h4>Game Jam <span></span></h4>
+                <p>Apresentação dos jogos.</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00-12:00
+                <br>
+                08/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/speaker6.png" alt="Cole Emmerich">
+                </div>
+                <h4>Apresentação de artigos submetidos <span></span></h4>
+                <p>sobre </p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>14:00-16:00 
+                <br>
+                08/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/pet.jpg" alt="Jack Christiansen">
+                </div>
+                <h4>Minicurso <span>Gabriel Sousa</span></h4>
+                <p>React Native</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>16:00-17:00
+                <br>
+                08/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/pet.jpg" alt="Alejandrin Littel">
+                </div>
+                <h4>Minicurso<span> Pedro Arthur</span></h4>
+                <p>Estatísica para pesquisa</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:00-10:00
+                <br>
+                10/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/speaker7.jpg" alt="Willow Trantow">
+                </div>
+                <h4>Competição de Apps <span>petianos</span></h4>
+                <p>Apresentação do tema</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00-12:00
+                <br>
+                10/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/speaker6.png" alt="Cole Emmerich">
+                </div>
+                <h4>Apresentação de artigos submetidos <span></span></h4>
+                <p>sobre </p>
+              </div>
+            </div>
+          
+  
+          <div class="row schedule-item">
+            <div class="col-md-2"><time>14:00-15:00
+              <br>
+              10/07
+            </time></div>
+            <div class="col-md-10">
+              <div class="speaker">
+                <img src="spk/speaker8.jpg" alt="Cole Emmerich">
+              </div>
+              <h4>AWebinário <span>Professor(a)</span></h4>
+              <p>sobre webinário</p>
+            </div>
+          </div>
+  
+          <div class="row schedule-item">
+            <div class="col-md-2"><time>16:00-18:00
+              <br>
+              10/07
+            </time></div>
+            <div class="col-md-10">
+              <div class="speaker">
+                <img src="spk/pet.jpg" alt="Alejandrin Littel">
+              </div>
+              <h4>Minicurso<span> Luís Gustavo</span></h4>
+              <p>Arduino Básico</p>
             </div>
           </div>
         </div>
+  
+          <!-- End Schdule Day 2 -->
+  
+          <!-- Schdule Day 3 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:00-12:00
+                <br>
+                13/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/speaker9.jpg" alt="Hubert Hirthe">
+                </div>
+                <h4>Maratona de Programação<span>Kennedy, Durand...</span></h4>
+                <p>Sobre maratona</p>
+              </div>
+            </div>
+  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>14:00-18:00
+                <br>
+                13/07
+              </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="spk/speaker10.jpg" alt="Cole Emmerich">
+                </div>
+                <h4>Competição de Apps <span>Nathasha, Arthur e Alana</span></h4>
+                <p>Apresentação dos Apps</p>
+              </div>
+            </div>
+  
+          </div>
+          <!-- End Schdule Day 2 -->
+  
+        </div>
+  
       </div>
-      <br>
-      <br>
-      <br>
-      <div class="text-center">
-
-      </div>
-    </section>
+  
+    </section><!-- End Schedule Section -->
+  
 
 
     <!--==========================
@@ -319,7 +591,7 @@
               <ul id="faq-list">
 
                 <li>
-                  <a><i class="fa fa-minus-circle"></i>Luis Rivero Cabrejos (Deinf)</a>
+                  <a><i></i>Luis Rivero Cabrejos (Deinf)</a>
                 </li>
 
               </ul>
@@ -343,7 +615,7 @@
        
         <div class="row no-gutters supporters-wrap clearfix">
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
+          <div class="col-lg-2 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <a href="https://portais.ufma.br/PortalUfma/index.jsf">
                 <img src="img/supporters/1.png" class="img-fluid" alt="">
@@ -351,7 +623,7 @@
             </div>
           </div>
           
-          <div class="col-lg-3 col-md-4 col-xs-6">
+          <div class="col-lg-2 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <a href="http://www.ecp.ufma.br/">
                 <img src="img/supporters/2.png" class="img-fluid" alt="">
@@ -359,7 +631,7 @@
             </div>
           </div>
         
-          <div class="col-lg-3 col-md-4 col-xs-6">
+          <div class="col-lg-2 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <a href="http://www.deinf.ufma.br/">
                 <img src="img/supporters/3.png" class="img-fluid" alt="">
@@ -367,10 +639,18 @@
             </div>
           </div>
           
-          <div class="col-lg-3 col-md-4 col-xs-6">
+          <div class="col-lg-2 col-md-4 col-xs-6">
             <div class="supporter-logo">
               <a href="https://pet.ufma.br/comp/">
                 <img src="img/supporters/4.png" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <a href="https://pet.ufma.br/comp/">
+                <img src="img/supporters/5.png" class="img-fluid" alt="">
               </a>
             </div>
           </div>

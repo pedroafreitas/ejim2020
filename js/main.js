@@ -15,16 +15,12 @@ jQuery(document).ready(function( $ ) {
 
   // Header fixed on scroll
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 1) {
       $('#header').addClass('header-scrolled');
-    } else {
-      $('#header').removeClass('header-scrolled');
-    }
   });
 
-  if ($(window).scrollTop() > 1) {
-    $('#header').addClass('header-scrolled');
-  }
+
+  $('#header').addClass('header-scrolled');
+  
 
   // Real view height for mobile devices
   if (window.matchMedia("(max-width: 767px)").matches) {
