@@ -157,6 +157,11 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background: white;
+  height: 70px;
+  padding: 15px 0;
+  transition: all 0.5s;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 #header.header-scrolled,
