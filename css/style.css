@@ -47,7 +47,7 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: #1B100A;
 }
 
 .main-page {
@@ -270,7 +270,7 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: #51A2A6;                    /*muda a cor da fonte no menu de navegação*/
+  color: #1B100A;                    /*muda a cor da fonte no menu de navegação*/
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -279,7 +279,7 @@ h6 {
 
 .nav-menu .menu-active a,
 .nav-menu a:hover {
-  color: #51A2A6;
+  color: #1B100A;
 }
 
 .nav-menu > li {
@@ -377,7 +377,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: #1B100A;
 }
 
 /* Mobile Nav Styling */
@@ -388,7 +388,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(6, 12, 34, 0.9);
+  background: #1B100A ;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -821,7 +821,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #0e1b4d;
+  background-color: #1B100A;
   color: #fff;
   padding: 10px 100px;
 }
@@ -1078,6 +1078,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-top: 1px solid #e0e5fa;
   border-left: 1px solid #e0e5fa;
   margin-bottom: 30px;
+  justify-content: center;
 }
 
 #supporters .supporter-logo {
@@ -1117,7 +1118,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #faq #faq-list {
   padding: 0;
-  list-style: none;
+  /* list-style: none; */
 }
 
 #faq #faq-list li {
