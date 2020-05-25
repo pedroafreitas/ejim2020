@@ -191,8 +191,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
-  background: white;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -1210,7 +1209,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe button:hover {
-  background: #e0072f;
+  background: #51A2A6;
 }
 
 /*--------------------------------------------------------------
@@ -1268,7 +1267,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #e0072f;
+  background-color: #51A2A6;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -1287,7 +1286,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
+  background-color: #51A2A6;
 }
 
 /*--------------------------------------------------------------
@@ -1391,7 +1390,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #e0072f;
+  background: #51A2A6;
 }
 
 /*--------------------------------------------------------------
