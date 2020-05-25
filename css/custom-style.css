@@ -10,7 +10,15 @@
 /* pag competições */
 
 .container-fluid{
-    padding-top: 20px;
+    padding-top: 15px;
+}
+
+#table-comp{
+    padding-bottom: 15px;
+}
+
+#coordenadores{
+    padding-bottom: 20px;
 }
 
 /*-----------------*/
