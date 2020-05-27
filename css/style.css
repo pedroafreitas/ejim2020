@@ -282,6 +282,16 @@ h6 {
   outline: none;
 }
 
+#nav-menu-dropdown {
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: #1B100A;                    
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none;
+}
 .nav-menu .menu-active a,
 .nav-menu a:hover {
   color: #1B100A;
