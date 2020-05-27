@@ -300,6 +300,7 @@ h6 {
 .nav-menu .menu-active a,
 .nav-menu a:hover {
   color: #1B100A;
+  cursor: pointer;
 }
 
 .nav-menu > li {
