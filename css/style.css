@@ -292,6 +292,11 @@ h6 {
   font-size: 14px;
   outline: none;
 }
+
+#nav-menu-dropdown:hover{
+  cursor: pointer;
+}
+
 .nav-menu .menu-active a,
 .nav-menu a:hover {
   color: #1B100A;
