@@ -870,6 +870,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: background-color ease-in-out 0.3s;
 }
 
+
 #schedule .schedule-item:hover {
   background-color: #fff;
 }
@@ -918,7 +919,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .schedule-subtitle{
   font-size: 25px;
   font-weight: 500;
-  font-family: "Raleway", sans-serif;
   color:#51A2A6;
 }
 /*--------------------------------------------------------------
@@ -1663,7 +1663,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #schedule .nav-tabs a {
-    padding: 8px 60px;
+    padding: 8px 30px;
   }
 }
 
