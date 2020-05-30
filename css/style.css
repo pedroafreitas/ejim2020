@@ -915,6 +915,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+.schedule-subtitle{
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  color:#51A2A6;
+}
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
