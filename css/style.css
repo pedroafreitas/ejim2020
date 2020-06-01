@@ -327,13 +327,13 @@ h6 {
 }
 
 .nav-menu li.buy-tickets a {
-  color: #fff;
+  color: #1B100A;
   background: #51A2A6;
   padding: 7px 22px;
   border-radius: 50px;
   border: 2px solid #51A2A6;
   transition: all ease-in-out 0.3s;
-  font-weight: 500;
+  font-weight: 800;
   margin-left: 8px;
   margin-top: 2px;
   line-height: 1;
