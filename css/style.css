@@ -282,7 +282,7 @@ h6 {
   outline: none;
 }
 
-#nav-menu-dropdown {
+.nav-menu button{
   padding: 8px;
   text-decoration: none;
   display: inline-block;
@@ -294,7 +294,7 @@ h6 {
 }
 
 #nav-menu-dropdown:hover{
-  cursor: pointer;
+  cursor: p;
 }
 
 .nav-menu .menu-active a,
