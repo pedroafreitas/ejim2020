@@ -21,14 +21,16 @@
     padding-bottom: 20px;
 }
 
+#proposta{
+    margin-bottom: 10px;
+}
 /*-----------------*/
+
 
 /* pag submissão de trabalhos*/
 #first-title{
     padding-top: 80px;
 }
-
-
 /*-----------------*/
 .menu-dropdown{
     color: #1B100A;
