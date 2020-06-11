@@ -115,6 +115,7 @@ jQuery(document).ready(function( $ ) {
           $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
           $('#mobile-body-overly').fadeOut();
         }
+        
         return false;
       }
     }
@@ -139,5 +140,8 @@ jQuery(document).ready(function( $ ) {
   })
 
 // custom code
-
+  if ($(window).width() <= 991) {
+    $(".fixed-dropdown").attr("href", "competicoes.html")
+  }
 });
+

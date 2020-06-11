@@ -992,7 +992,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #hotels {
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 #hotels .hotel {
@@ -1023,7 +1023,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #hotels a {
-  color: #152b79;
+  color: #060c22;
 }
 
 #hotels a:hover {
