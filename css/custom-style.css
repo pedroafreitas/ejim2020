@@ -59,8 +59,9 @@ width: 68%;
 
 /*---- Pag webnars -----*/
 
-.tutoriais{ 
-   
+.tutoriais hr{ 
+   margin: 0px;
+   padding: 0px;
     
 }
 #tutoriais-img{
@@ -84,6 +85,7 @@ width: 68%;
 
 .tutoriais-text #nome{
     color: #9195a2;
+    margin-bottom: 7px;
 }
 
 .tutoriais-text h6{
