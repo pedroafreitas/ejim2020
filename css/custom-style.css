@@ -56,3 +56,35 @@ width: 68%;
 .fixed-dropdown{
     
 }
+
+/*---- Pag webnars -----*/
+
+.tutoriais{ 
+    background-color: aqua;
+    
+}
+#tutoriais-img{
+    display: inline-block;
+    
+}
+
+#tutoriais-img img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    
+}
+
+.tutoriais-text{
+    display: inline-block;
+    text-align: top;
+}
+
+.tutoriais-text #nome{
+    color: #9195a2;
+}
+
+.tutoriais-text h6{
+    margin-bottom: 2px;
+}
+
