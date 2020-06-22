@@ -56,3 +56,41 @@ width: 68%;
 .fixed-dropdown{
     
 }
+
+/*---- Pag webnars -----*/
+
+.tutoriais hr{ 
+   margin: 0px;
+   padding: 0px;
+    
+}
+#tutoriais-img{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    float: left;
+    
+}
+
+#tutoriais-img img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    
+}
+
+.tutoriais-text{
+    padding-left: 20px;
+    display: inline-block;
+    text-align: top;
+}
+
+.tutoriais-text #nome{
+    color: #9195a2;
+    margin-bottom: 7px;
+}
+
+.tutoriais-text h6{
+    margin-bottom: 2px;
+}
+
