@@ -67,16 +67,13 @@ width: 68%;
 #tutoriais-img{
     padding-top: 20px;
     padding-left: 20px;
-    display: inline-block;
-    float: left;
-    
+    display: inline-block;  
 }
 
 #tutoriais-img img{
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    
 }
 
 .tutoriais-text{
