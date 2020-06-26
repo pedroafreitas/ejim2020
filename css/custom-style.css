@@ -53,9 +53,7 @@ margin-right: auto;
 width: 68%;
 }
 
-.fixed-dropdown{
-    
-}
+
 
 /*---- Pag webnars -----*/
 
@@ -91,3 +89,8 @@ width: 68%;
     margin-bottom: 2px;
 }
 
+/* Seção de orientações*/
+
+#link-tutorial{
+    padding: 0 0 0 0 !important;
+}
